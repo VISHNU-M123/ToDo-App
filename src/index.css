@@ -1,0 +1,194 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #17293c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: rgb(169, 223, 227);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background: #130e0e;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #303438;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+span {
+  flex: 1;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li span {
+  flex: 1;
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+} */
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #17293c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background: rgb(169, 223, 227);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.add {
+  background: #000000;
+}
+
+button.add:hover {
+  background: #303438;
+}
+
+button.edit {
+  background: #007bff;
+}
+
+button.edit:hover {
+  background: #0056b3;
+}
+
+button.save {
+  background: #28a745;
+}
+
+button.save:hover {
+  background: #218838;
+}
+
+button.delete {
+  background: #ff4d4d;
+}
+
+button.delete:hover {
+  background: #ff1a1a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+span {
+  flex: 1;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li span {
+  flex: 1;
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
